@@ -9,7 +9,7 @@ There are multiple ways to help improve our documentation:
 
 * [Log an issue](https://github.com/opencv/dldt/issues): Enter an issue in the documentation repository for minor issues such as typos.
 * [Make a suggestion](): Send your documentation suggestion to the mailing list.
-* [Contribute via GitHub](#github-contributing-guidelines): Submit pull requests in the GitHub* documentation repository.
+* [Contribute via GitHub](#contribute-via-github): Submit pull requests in the GitHub* documentation repository.
 
 ## Contribute via GitHub
 
@@ -87,19 +87,11 @@ Commands, also called imperatives, are the fastest and most direct way of giving
 
 Use simple present tense instead of future tense for most text. Search for the words “will” or “shall” to find future tense instances. Future tense is acceptable for conditional statements, such as in a caution or a warning.
 
-###	Avoid long noun phrases
-
-Noun phrases (a noun and other words that describe or modify it) can be difficult to understand. Try to limit the number of modifiers in a noun phrase to two.
-
 ###	Parallelism
 
 Parallelism refers to the practice of using similar patterns of grammar, and sometimes length, to coordinate words, phrases, and clauses.
 
 Use parallel construction in lists. The table below shows some unparallel structures and how they can be made parallel with a little rewording.
-
-###	Grammar and punctuation
-
-This section covers common grammatical topics relevant to our documentation. 
 
 ## Structure and Formatting Guidelines
 
@@ -114,4 +106,26 @@ This section covers common grammatical topics relevant to our documentation.
 
 ## Graphics Guidelines
 
+Use images or figures to convey information that may be difficult to explain using words alone. Well-planned graphics reduce the amount of text required to explain a topic or example.
 
+Follow these guidelines when using graphics in support of your documentation:
+
+* Keep it simple. Use images that serve a specific purpose in your document, and contain only the information the reader needs.
+
+* Avoid graphics that will need frequent updating. Don’t include information in a graphic that might change with each release, such as product versions.
+
+* Use either PNG or JPEG bitmap files for screenshots and SVG files for vector graphics.
+
+* Place the image immediately after the text it helps clarify, or as close as possible.
+
+* Use the Markdown directives to insert images and figures into the document. Include both alt text, and the title.
+
+* Include at least one direct reference to an image from the main text, using the figure number.
+
+Images should follow these naming and location conventions:
+
+* Save the image files in a figures folder at the same level as the file that will reference the image.
+* Name image files according to the following rules:
+   * Use only lower case letters.
+   * Separate multiple words in filenames using dashes.
+   * Name images using the filename of the file they appear on and add a number to indicate their place in the file. For example, the third figure added to the `welcome.md` file must be named `welcome-3.png`.
