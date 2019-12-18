@@ -1,4 +1,4 @@
-# Contributor's Guide Template
+# Documentation Contributor's Guide Template
 
 If you want to contribute to a project documentation and make it better, your help is very welcome.
 This guide puts together the guidelines to help you figure out how you can offer your feedback and contribute to the documentation.
