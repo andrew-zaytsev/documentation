@@ -1,21 +1,19 @@
 # Contributor's Guide Template
+
 If you want to contribute to a project documentation and make it better, your help is very welcome.
-This guide puts together the following guidelines to help you figure out how to offer feedback and contribute to the documentation:
+This guide puts together the guidelines to help you figure out how you can offer your feedback and contribute to the documentation.
 
-* [GitHub Contributing Guidelines](#github-contributing-guidelines)
-* [Authoring Guidelines](#authoring-guidelines)
-* [Structure and Formatting Guidelines](#structure-and-formatting-guidelines)
-* [Graphics Guidelines](#graphics-guidelines)
+## Contribute in Multiple ways
 
-## GitHub Contributing Guidelines
+There are multiple ways to help improve our documentation:
 
-### List of Documentation Repositories in GitHub
+* [Log an issue](https://github.com/opencv/dldt/issues): Enter an issue in the documentation repository for minor issues such as typos.
+* [Make a suggestion](): Send your documentation suggestion to the mailing list.
+* [Contribute via GitHub](#github-contributing-guidelines): Submit pull requests in the GitHub* documentation repository.
 
-Here is the list of repositories where the project documentation is located:
-* https://github.com/opencv/open_model_zoo - Pre-trained Deep Learning models and samples (high quality and extremely fast)
-* https://github.com/opencv/dldt - OpenVINO™ Toolkit Deep Learning Deployment Toolkit repository
+## Contribute via GitHub
 
-### GitHub Flow
+Our documentation is hosted in GitHub and we follow the standard GitHub flow. Here are the basic steps for contributing:
 
 1. Clone the documentation repository.
 2. Create your own fork of the repository.
@@ -25,11 +23,23 @@ Here is the list of repositories where the project documentation is located:
 6. Discuss, review, and update your contributions.
 7. Once the maintainer approves, your contribution is merged.
 
+Here is the list of repositories where the project documentation is located:
+
+* https://github.com/opencv/open_model_zoo - Pre-trained Deep Learning models and samples (high quality and extremely fast)
+* https://github.com/opencv/dldt - OpenVINO™ Toolkit Deep Learning Deployment Toolkit repository
+
+
+The documentation for our project is written using Markdown. Use our guidelines and best practices to write consistent, readable documentation:
+
+* [Authoring Guidelines](#authoring-guidelines)
+* [Structure and Formatting Guidelines](#structure-and-formatting-guidelines)
+* [Graphics Guidelines](#graphics-guidelines)
+
 ## Authoring Guidelines
 
 We want our documentation to be easy to read and understand. This section describes guidelines for writing documentation that is clear, concise, confident, and courteous. 
 
-For details on organizing content and how we use Markdown, refer to [Structure and Formatting](structure-and-formatting-guidelines) 
+For details on organizing content and how we use Markdown, refer to [Structure and Formatting](structure-and-formatting-guidelines). 
 
 ###	Use simple English
 
